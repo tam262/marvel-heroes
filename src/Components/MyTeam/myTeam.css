@@ -1,0 +1,39 @@
+.myTeam {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 60px;
+}
+
+.myTeam h1 {
+  margin-bottom: 30px;
+  letter-spacing: 3px;
+}
+
+.myTeam .myTeamHero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid black;
+  background-color: #492727;
+  width: 300px;
+  font-size: larger;
+  padding-right: 5px;
+  box-shadow: 4px 2px 36px 3px rgba(224, 224, 224, 0.75);
+  -webkit-box-shadow: 4px 2px 36px 3px rgba(224, 224, 224, 0.75);
+  -moz-box-shadow: 4px 2px 36px 3px rgba(224, 224, 224, 0.75);
+}
+
+.myTeam .myTeamHero img {
+  width: 80px;
+  margin-right: 10px;
+}
+/*# sourceMappingURL=myTeam.css.map */

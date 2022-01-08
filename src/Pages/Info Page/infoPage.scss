@@ -1,0 +1,80 @@
+.heroAndComics {
+  padding: 100px;
+  width: 100vw;
+  background-image: url("https://gmedia.playstation.com/is/image/SIEPDC/superheroes-buyers-guide-background-block-desktop-03-en-27nov20?$native--t$");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: rgb(202, 202, 202);
+  .heroInfo {
+    display: flex;
+    img {
+      margin-right: 100px;
+      margin-bottom: 30px;
+      width: 600px;
+      box-shadow: 16px -17px 61px -18px rgba(227, 227, 227, 0.75);
+      -webkit-box-shadow: 16px -17px 61px -18px rgba(227, 227, 227, 0.75);
+      -moz-box-shadow: 16px -17px 61px -18px rgba(227, 227, 227, 0.75);
+    }
+    h1 {
+      margin-bottom: 40px;
+    }
+    p {
+      font-size: 30px;
+      letter-spacing: 1px;
+      word-spacing: 2px;
+    }
+  }
+  .comics {
+    display: flex;
+    align-items: center;
+    h2 {
+      margin-right: 20px;
+      font-weight: 400;
+      letter-spacing: 2px;
+    }
+    input {
+      position: relative;
+      display: block;
+      padding: 50px;
+      margin: 30px;
+      width: 40px;
+      height: 30px;
+      background-color: red;
+      border: none;
+      cursor: pointer;
+    }
+    input::after {
+      content: "";
+      width: 100%;
+      height: 100%;
+      top: -5%;
+      border: 1px solid black;
+      border-radius: 50%;
+      position: absolute;
+      transition: 0.3s ease-in-out;
+    }
+    input:not(:checked)::after {
+      transform: translateX(-75%);
+      background-color: rgb(52, 51, 65);
+    }
+    input:checked::after {
+      background-color: greenyellow;
+      transform: translateX(75%);
+    }
+    input::before {
+      content: "";
+      display: block;
+      width: 200%;
+      height: 100%;
+      background-color: rgb(105, 104, 126);
+      border-radius: 40px;
+      left: -50%;
+      position: absolute;
+    }
+  }
+  .allComics {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,52 @@
+.heroCard {
+  border-radius: 10px;
+  border: 1px solid #797979;
+  background-color: rgba(49, 55, 88, 0.3);
+  margin: 10px 10px 40px 10px;
+  padding: 10px;
+  width: 350px;
+  height: 550px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.heroCard h2 {
+  margin-top: 20px;
+}
+
+.heroCard img {
+  width: 310px;
+  margin: 10px;
+}
+
+.heroCard .cardButtons button {
+  margin: 20px 15px 20px 15px;
+  padding: 5px 15px 5px 15px;
+  cursor: pointer;
+  background-color: #801313;
+  color: white;
+  letter-spacing: 3px;
+  font-size: large;
+  border: none;
+  width: 80px;
+}
+
+.heroCard .cardButtons button:hover {
+  -webkit-filter: brightness(120%);
+          filter: brightness(120%);
+}
+/*# sourceMappingURL=heroCard.css.map */

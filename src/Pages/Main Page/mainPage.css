@@ -1,0 +1,38 @@
+.main {
+  background-image: url("https://www.desktopbackground.org/download/o/2013/12/20/688504_marvel-cinematic-universe-marvel-heroes-blo0p-batman-artwork_1920x1080_h.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100vw;
+  color: #fafafa;
+}
+
+.main .searchInput {
+  padding: 15px;
+  margin: 60px 0px 20px 40px;
+  border-radius: 10px;
+  border: 1px solid grey;
+  width: 250px;
+  font-size: large;
+}
+
+.main .mainFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+}
+
+.main .mainFlex .heroCardsWrapper {
+  width: 75%;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=mainPage.css.map */

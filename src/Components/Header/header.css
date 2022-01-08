@@ -1,0 +1,26 @@
+.header {
+  width: 100vw;
+  height: 150px;
+  background-image: url("https://miro.medium.com/max/2478/1*fFlEBlKsgYL2hL0TOcs73A.jpeg");
+  background-size: cover;
+  background-position-y: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.header img {
+  max-width: 320px;
+}
+/*# sourceMappingURL=header.css.map */

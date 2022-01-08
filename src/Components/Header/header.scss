@@ -1,0 +1,15 @@
+.header {
+  width: 100vw;
+  height: 150px;
+  background-image: url("https://miro.medium.com/max/2478/1*fFlEBlKsgYL2hL0TOcs73A.jpeg");
+  background-size: cover;
+  background-position-y: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid black;
+  img {
+    max-width: 320px;
+  }
+}
